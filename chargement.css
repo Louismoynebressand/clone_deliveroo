@@ -1,0 +1,12 @@
+body{
+    background-color: #00CDBC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.chargement{
+    width: 60px;
+
+}
+

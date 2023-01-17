@@ -1,0 +1,181 @@
+body{
+    width: 100vw;
+    
+    margin: 0;
+}
+.container{
+    width: 92vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    height: 35px;
+    margin-top: 30px;
+    
+}
+
+.logoVelo{
+
+    width: 15%;
+    display: flex;
+    justify-content: left;
+    
+}
+.logoVelo img{
+    height: 100%;
+    
+}
+
+.adresseLivraison{
+   
+    width: 70%;
+    
+}
+.adresseLieu{
+    height: 50%;
+    
+    display: flex;
+    align-items: center;
+}
+.adresseLieu span{
+    margin-right: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.adresseInfos{
+    height: 50%;
+    
+}
+.adresseInfos span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+.flecheGps{
+    height: 50%;
+    margin-right: 6px;
+}
+.chevronDown{
+    height: 70%;
+}
+
+.logoCompte{
+    
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.fondRond{
+    border-radius: 100%;
+    background-color: rgb(239, 237, 237);
+    width: 20px;
+    height: 20px;
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.choixModeLivraison{
+    margin-top: 15px;
+}
+.btnLivraison{
+    border-radius: 20px;
+    height: 22px;
+    width: 80px;
+    background-color: #00CDBC;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 12px;
+}
+.btnAemporter{
+    height: 22px;
+    width: 80px;
+    background-color: white;
+    border: none;
+    color: #00CDBC;
+
+}
+
+.recherche{
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.barreDeRecherche{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(238, 238, 238);
+    color: #AAAAAA;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.iconSearch{
+    height: 45%;
+    margin-right: 9px;
+    margin-left: 20px;
+}
+
+.reglageRecherche{
+    width: 10%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.iconReglage{
+    height: 60%;
+}
+
+.categories{
+    display: flex;
+    margin-top: 20px;
+}
+
+.cardCategorie{
+
+    width: 80px;
+    height: 80px;
+    
+    display: flex;
+    align-items: flex-end;
+    border-radius: 4px;
+    margin-right: 9px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardCategorie span{
+    margin-bottom: 9px;
+    margin-left: 6px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.card1{
+    background-image: url(img/sac_de_course.png); 
+}
+.card2{
+    background-image: url(img/categorie_offres.png);
+}
+.card3{
+    background-image: url(img/categorie_petitdej.png);
+}
+.card4{
+    background-image: url(img/categorie_pizza.png);
+}
